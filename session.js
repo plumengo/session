@@ -1,6 +1,6 @@
 const uuid = require('uuid')
 //const cookie = require('cookie')
-const crypto = null//require('plumengo/crypto/crypto')
+const crypto = require('plumengo/crypto/crypto')
 const cache = require('node-cache')
 
 let store = null
