@@ -20,13 +20,9 @@
   "bugs": {
     "url": "https://github.com/plumengo/session/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/plumengo/session#readme",
   "dependencies": {
     "node-cache": "^5.1.2",
     "uuid": "^8.3.2"
   }
-=======
-  "homepage": "https://github.com/plumengo/session#readme"
->>>>>>> 638f953fb29204e0543171f28051a13ed8273058
 }
