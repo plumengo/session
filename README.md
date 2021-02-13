@@ -7,7 +7,7 @@ const Router = require('koa-router')
 const favicon = require('koa-favicon')
 const static = require('koa-static')
 const session = require('plumengo-session')
-
+const uuid = require('uuid')
 
 const PORT = 3000
 const app = new Koa()
@@ -21,7 +21,6 @@ app.use(router.allowedMethods())
 class Session {
     constructor() {
         this.id = uuid.v4()
-
         this.client = {
             id: uuid.v4(),
             token: uuid.v4()
